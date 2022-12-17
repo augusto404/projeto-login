@@ -24,6 +24,7 @@
 @media screen and (min-width: 992px) {
   #login {
     width: 950px;
+    flex-direction: row-reverse;
   }
 
   #imagem {
@@ -33,5 +34,13 @@
 
   #form {
     flex: 1;
+  }
+
+  #form > h1 {
+    font-size: 2em;
+  }
+
+  #form > p {
+    font-size: 1em;
   }
 }
