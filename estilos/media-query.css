@@ -1,0 +1,37 @@
+/* M */
+@media screen and (min-width: 768px) {
+  body {
+    background: linear-gradient(to top, var(--cor-secundaria), var(--cor-principal));
+  }
+
+  #login {
+    display: flex;
+    width: 80vw;
+  }
+
+  #imagem {
+    flex: 1;
+    height: 100%;
+    background-position: left center;
+  }
+
+  #form {
+    flex: 2;
+  }
+}
+
+/* L || XL */
+@media screen and (min-width: 992px) {
+  #login {
+    width: 950px;
+  }
+
+  #imagem {
+    flex: 1;
+    background-position: center center;
+  }
+
+  #form {
+    flex: 1;
+  }
+}
